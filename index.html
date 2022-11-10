@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href=".png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./../Lib/fontawesomepro/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediastyle.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <nav id="nav-bar">
+        <div class="nav-logo-container">
+            <div class="nav-logo">
+                <a href="./index.html"><img src="./img/logo01.png" width="100%" alt="logo01"></a>
+            </div>
+        </div>
+        <menu>
+            <ul class="main-ul">
+                <li ><a href="./index.html" class="no-underline uppercase font-bold nav-active">Home</a></li>
+                <li class="list-active"><a href="./html/whoWeAre.html" class="no-underline uppercase font-bold">Who We Are</a></li>
+                <li class="what-we-offer"><a href="#" class="no-underline uppercase font-bold">What We Offer<span class="angle-down"><i class="far fa-angle-down"></i></span></a> 
+                    <ul class="what-we-offer-list border-b-4 rounded-b-md text-left ">
+                        <li class="border-b-2"><a href="#" class="font-medium ">Strategy & Consulting</a></li>
+                        <li class="border-b-2"><a href="#" class="font-medium">Applied Intelligence</a></li>
+                        <li class="border-b-2"><a href="#" class="font-medium">Business Process</a></li>
+                        <li class="border-b-2"><a href="#" class="font-medium">Insight & Growth</a></li>
+                        <li class="border-b-2"><a href="#" class="font-medium">Software Engineering</a></li>
+                        <li class=""><a href="#" class="font-medium">Supply & Operations</a></li>
+                    </ul>
+                </li>
+                <li><a href="./html/ourWork.html" class="no-underline uppercase font-bold">Our work</a></li>
+                <li><a href="./html/pricing.html" class="no-underline uppercase font-bold">Pricing</a></li>
+                <li class="blog"><a href="#" class="no-underline uppercase font-bold">BLog <span class="angle-down"><i class="far fa-angle-down"></i></span></a>
+                    <ul class="blog-list border-b-4 rounded-b-md text-left ">
+                        <li class="border-b-2"><a href="#" class="font-medium ">Cover Articels</a></li>
+                        <li class="border-b-2"><a href="#" class="font-medium">Starilization</a></li>
+                        <li class="border-b-2"><a href="#" class="font-medium">Conferences</a></li>
+                        <li class="border-b-2"><a href="#" class="font-medium">Insight & Growth</a></li>
+                        <li class="border-b-2"><a href="#" class="font-medium">Software Engineering</a></li>
+                        <li class=""><a href="#" class="font-medium">Test Utilization</a></li>
+                    </ul>
+                </li>
+                <li><a href="./html/contactUs.html" class="no-underline uppercase font-bold">Contact us</a></li>
+            </ul>
+        </menu>
+        <div class="nav-slide-btn-container">
+            <div id="nav-slide-btn" class="nav-slide-btn ">
+                <div class="rounded-lg "></div>
+                <div class="rounded-lg "></div>
+                <div class="rounded-lg "></div>
+            </div>
+        </div>
+    </nav>
+    <div id="nav-slide" class="nav-slide">
+        <div id="nav-slide-container" class="nav-slide-container">
+            <div class="slide-nav-log-btn-container">
+                <div class="nav-logo-container">
+                    <div class="nav-logo">
+                        <a href="./index.html"><img src="./img/logo01.png" width="100%" alt="logo01"></a>
+                        
+                    </div>
+                </div>
+                <div id="close-btn" class="close-btn ">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <menu>
+                <ul class="slide-main-ul">
+                    <li class="border-b"><a href="./index.html" class="no-underline uppercase font-bold slide-active">Home</a></li>
+                    <li class="border-b"><a href="./html/whoWeAre.html" class="no-underline uppercase font-bold">Who We Are</a></li>
+                    <li class="slide-what-we-offer border-b"><div><a href="#" class="no-underline uppercase font-bold">What We Offer</a><span id="we-offer-angle-down" class="angle-down border-l-2" ><i class="far fa-angle-down"></i></span></div>
+                        <ul class="slide-what-we-offer-list">
+                            <li class="border-b"><a href="#" class="font-medium ">Strategy & Consulting</a></li>
+                            <li class="border-b"><a href="#" class="font-medium">Applied Intelligence</a></li>
+                            <li class="border-b"><a href="#" class="font-medium">Business Process</a></li>
+                            <li class="border-b"><a href="#" class="font-medium">Insight & Growth</a></li>
+                            <li class="border-b"><a href="#" class="font-medium">Software Engineering</a></li>
+                            <li class=""><a href="#" class="font-medium">Supply & Operations</a></li>
+                        </ul>
+                    </li>
+                    <li class="border-b"><a href="./html/ourWork.html" class="no-underline uppercase font-bold">Our work</a></li>
+                    <li class="border-b"><a href="./html/pricing.html" class="no-underline uppercase font-bold">Pricing</a></li>
+                    <li class="slide-blog border-b"><div><a href="#" class="no-underline uppercase font-bold">BLog </a><span id="blog-angle-down" class="angle-down border-l-2"><i class="far fa-angle-down"></i></span></div>
+                        <ul class="slide-blog-list">
+                            <li class="border-b"><a href="#" class="font-medium ">Cover Articels</a></li>
+                            <li class="border-b"><a href="#" class="font-medium">Starilization</a></li>
+                            <li class="border-b"><a href="#" class="font-medium">Conferences</a></li>
+                            <li class="border-b"><a href="#" class="font-medium">Insight & Growth</a></li>
+                            <li class="border-b"><a href="#" class="font-medium">Software Engineering</a></li>
+                            <li class=""><a href="#" class="font-medium">Test Utilization</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./html/contactUs.html" class="no-underline uppercase font-bold">Contact us</a></li>
+                </ul>
+            </menu>
+        </div>
+    </div>
+    <head>
+        <div class="head-container">
+            <div class="head-body text-center font-black">
+                <video id="video-background" class="video-background" loop muted autoplay src="" ></video>
+                <h1>GROWTH <br>MARKETING <br> STAGE</h1>
+                <a href="#" class="uppercase tracking-widest rounded-md">view services</a>
+            </div>
+        </div>
+    </head>
+    <section class="all-section-container">
+        <section class="-section-container">
+            <div class="-section">
+                <div class="section-left-container">
+                    <div class="section-left">
+                        <div class="left-heading-container">
+                            <div class="left-heading-title font-black tracking-wider uppercase">
+                                why choose us   
+                            </div>
+                            <div class="heading-title-bar">
+                            </div>
+                        </div>
+                        <div class="left-section-body-heading  leading-tight">
+                            <p class="font-black">There are many consulting firm in this city but clients choose us all time</p>
+                        </div>
+                        <div class="left-section-body-second-para border-l-4">
+                            <p class="font-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Ea est praesentium modi veri</p>
+                        </div>
+                        <div class="left-section-body-third-para">
+                            <p class="font-medium">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibadipiscing, commodo quis, gravida id, est. Sed lectus.</p>
+                        </div>
+                        <div class="left-section-btn-container">
+                            <a href="#" class="font-black tracking-widest rounded-md">About Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-right-container">
+                    <div class="section-right">
+                        <div class="section-img-container">
+                            <div class="section-img">
+                                <img src="./img/sell.png" width="100%" alt="sell">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section-margin-ling">
+            <div class="margin-line"></div>
+            <div class="maring-icon border-4 rounded-full">
+                <i class="fal fa-rocket"></i>
+            </div>
+        </div>
+        <section id="first-section-ani" class="-section-container">
+            <div class="-section">
+                <div class="section-left-container">
+                    <div class="section-left">
+                        <div class="section-img-container ">
+                            <div id="section-img-animate" class="section-img section-img-animate-hide ">
+                                <img src="./img/zohar_04_04-1024x877.jpg" width="100%" alt="sell">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-right-container">
+                    <div class="section-right">
+                        <div class="left-heading-container">
+                            <div class="left-heading-title font-black tracking-wider uppercase">
+                                why choose us   
+                            </div>
+                            <div class="heading-title-bar">
+                            </div>
+                        </div>
+                        <div class="left-section-body-heading  leading-tight">
+                            <p class="font-black">Consulting is a law firm specialising in corporate finance work</p>
+                        </div>
+                        <div class="left-section-body-second-para">
+                            <p class="font-medium">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibadipiscing, commodo quis, gravida id, est. Sed lectus.</p>
+                        </div>
+                        <div class="left-section-body-third-para-container">
+                            <div class="left-section-body-third-para-img-contaier">
+                                <div class="left-section-body-third-para-img">
+                                    <img src="./img/global-100x100.png" width="100%" alt="global-100x100">
+                                </div>
+                            </div>
+                            <div class="left-section-body-second-para border-l-4 leading-tight">
+                                <p class="font-medium">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibadipiscing, commodo quis, gravida id, est. Sed lectus.</p>
+                            </div>
+                        </div>
+                        <div class="left-section-body-third-para-container">
+                            <div class="left-section-body-third-para-img-contaier">
+                                <div class="left-section-body-third-para-img">
+                                    <img src="./img/think-100x100.png" width="100%" alt="global-100x100">
+                                </div>
+                            </div>
+                            <div class="left-section-body-second-para border-l-4 leading-tight">
+                                <p class="font-medium">Money-back guarantee is known as satisfaction guarantee,if a buyer is not satisfied with any product or service, a refund will be made.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="third-section-ani" class="-section-container" style="background-color:  var(--e-global-color-primary);">
+            <div class="-section">
+                <div class="section-left-container">
+                    <div class="section-left">
+                        <div class="left-heading-container">
+                            <div class="left-heading-title font-black tracking-wider uppercase" style="color: #fff;">
+                                why choose us   
+                            </div>
+                            <div class="heading-title-bar" style="background-color: #fff;">
+                            </div>
+                        </div>
+                        <div class="left-section-body-heading  leading-tight">
+                            <p class="font-black" style="color: #fff;">Our Vision</p>
+                        </div>
+                        <div class="left-section-body-second-para">
+                            <p class="font-medium" style="color: #fff;">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibadipiscing, commodo quis, gravida id, est. Sed lectus.</p>
+                        </div>
+                        <div class="left-section-btn-container">
+                            <a href="#" class="font-black tracking-widest rounded-md">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-right-container">
+                    <div class="section-right">
+                        <div class="section-img-container ">
+                            <div class="third-section-img-container">
+                                <div id="third-section-img-animate" class="section-img third-section-img  " >
+                                    <img src="./img/cont.png" width="100%" alt="cont">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="-section-container">
+            <div class="fourth-section -section">
+                <div class="fourth-section-title-container">
+                    <div class="fourth-section-title text-center">
+                        <h1 class="font-black tracking-wide">How we work with our clients with our capability</h1>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea est praesentium modi veritatis tenetur quaerat?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fourth-section-body-container">
+                    <div class="fourth-section-body">
+                        <div id="fourth-section-first-body-container" class="fourth-section-first-body-container">
+                            <div class="fourth-section-first-body-items-container">
+                                <div class="fourth-section-first-body-items-head-img-container">
+                                    <div id="fourth-section-first-body-items-head-img-1" class="fourth-section-first-body-items-head-img">
+                                        <img src="./img/icon_01.png" width="100%" alt="icon_01">
+                                    </div>
+                                </div>
+                                <div id="fourth-section-first-body-items-body-container-1" class="fourth-section-first-body-items-body-container ">
+                                    <div class="fourth-section-first-body-items-body-title">
+                                        <h2 class="tracking-widest uppercase font-bold">Management</h2>
+                                        <h1 class="font-bold">Strategy & Consulting</h1>
+                                    </div>
+                                    <div class="fourth-section-first-body-items-body-para">
+                                        <p class="font-light leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fourth-section-first-body-items-container">
+                                <div class="fourth-section-first-body-items-head-img-container">
+                                    <div id="fourth-section-first-body-items-head-img-2" class="fourth-section-first-body-items-head-img">
+                                        <img src="./img/icon_02.png" width="100%" alt="icon_01">
+                                    </div>
+                                </div>
+                                <div id="fourth-section-first-body-items-body-container-2" class="fourth-section-first-body-items-body-container">
+                                    <div class="fourth-section-first-body-items-body-title">
+                                        <h2 class="tracking-widest uppercase font-bold">DEVELOPMENT SOLUTIONS</h2>
+                                        <h1 class="font-bold">Applied Intelligence</h1>
+                                    </div>
+                                    <div class="fourth-section-first-body-items-body-para">
+                                        <p class="font-light leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fourth-section-first-body-items-container">
+                                <div class="fourth-section-first-body-items-head-img-container">
+                                    <div id="fourth-section-first-body-items-head-img-3" class="fourth-section-first-body-items-head-img">
+                                        <img src="./img/icon_04.png" width="100%" alt="icon_01">
+                                    </div>
+                                </div>
+                                <div id="fourth-section-first-body-items-body-container-3" class="fourth-section-first-body-items-body-container">
+                                    <div class="fourth-section-first-body-items-body-title">
+                                        <h2 class="tracking-widest uppercase font-bold">MARKETS</h2>
+                                        <h1 class="font-bold">Supply & Operations</h1>
+                                    </div>
+                                    <div class="fourth-section-first-body-items-body-para">
+                                        <p class="font-light leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="fourth-section-second-body-container" class="fourth-section-first-body-container fourth-section-second-body-container">
+                            <div class="fourth-section-first-body-items-container fourth-section-second-body-items-container">
+                                <div class="fourth-section-first-body-items-head-img-container fourth-section-second-body-items-head-img-container">
+                                    <div id="fourth-section-second-body-items-head-img-1" class="fourth-section-first-body-items-head-img fourth-section-second-body-items-head-img">
+                                        <img src="./img/icon_05.png" width="100%" alt="icon_01">
+                                    </div>
+                                </div>
+                                <div id="fourth-section-second-body-items-body-container-1" class="fourth-section-first-body-items-body-container fourth-section-second-body-items-body-container">
+                                    <div class="fourth-section-first-body-items-body-title fourth-section-second-body-items-body-title">
+                                        <h2 class="tracking-widest uppercase font-bold">LEADERSHIP</h2>
+                                        <h1 class="font-bold">Insight & Growth</h1>
+                                    </div>
+                                    <div class="fourth-section-first-body-items-body-para fourth-section-second-body-items-body-para">
+                                        <p class="font-light leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fourth-section-first-body-items-container fourth-section-second-body-items-container">
+                                <div class="fourth-section-first-body-items-head-img-container fourth-section-second-body-items-head-img-container">
+                                    <div id="fourth-section-second-body-items-head-img-2" class="fourth-section-first-body-items-head-img fourth-section-second-body-items-head-img">
+                                        <img src="./img/icon_06.png" width="100%" alt="icon_01">
+                                    </div>
+                                </div>
+                                <div id="fourth-section-second-body-items-body-container-2" class="fourth-section-first-body-items-body-container fourth-section-second-body-items-body-container">
+                                    <div class="fourth-section-first-body-items-body-title fourth-section-second-body-items-body-title">
+                                        <h2 class="tracking-widest uppercase font-bold">CONNECTIONS</h2>
+                                        <h1 class="font-bold">Software Engineering</h1>
+                                    </div>
+                                    <div class="fourth-section-first-body-items-body-para fourth-section-second-body-items-body-para">
+                                        <p class="font-light leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fourth-section-first-body-items-container fourth-section-second-body-items-container">
+                                <div class="fourth-section-first-body-items-head-img-container fourth-section-second-body-items-head-img-container">
+                                    <div id="fourth-section-second-body-items-head-img-3" class="fourth-section-first-body-items-head-img fourth-section-second-body-items-head-img">
+                                        <img src="./img/icon_03.png" width="100%" alt="icon_01">
+                                    </div>
+                                </div>
+                                <div id="fourth-section-second-body-items-body-container-3" class="fourth-section-first-body-items-body-container fourth-section-second-body-items-body-container">
+                                    <div class="fourth-section-first-body-items-body-title fourth-section-second-body-items-body-title">
+                                        <h2 class="tracking-widest uppercase font-bold">RESOURCES</h2>
+                                        <h1 class="font-bold">Business Process</h1>
+                                    </div>
+                                    <div class="fourth-section-first-body-items-body-para fourth-section-second-body-items-body-para">
+                                        <p class="font-light leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctusnec ullamcorper mattis</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fifth-section" class="-section-container" style="background-color:  var(--e-global-color-primary);">
+            <div class="fifth-section -seciton">
+                <div class="fifth-section-title-container text-center">
+                    <p class="font-black leading-tight">Don’t misread here we have random & interesting facts.</p>
+                </div>
+                <div class="fifth-section-body-container">
+                    <div class="fifth-section-body">
+                        <div class="fifth-section-body-counter fifth-section-body-client-counter">
+                            <span><span id="clientFeedback" class="clientFeedback">0</span>K</span>
+                            <span>Client’s Feedback</span>
+                        </div>
+                        <div class="fifth-section-body-counter fifth-section-body-trustUsers-counter">
+                            <span><span id="trustUsers" class="trustUsers">0</span>+</span>
+                            <span>Trusted Users</span>
+                        </div>
+                        <div class="fifth-section-body-counter fifth-section-body-winningAwards-counter">
+                            <span><span id="winningAwards" class="winningAwards">0</span>+</span>
+                            <span>Winning Awards</span>
+                        </div>
+                        <div class="fifth-section-body-counter fifth-section-body-completedWorks-counter">
+                            <span><span id="completedWorks" class="completedWorks">0</span>+</span>
+                            <span>Completed Works</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="six-section-ani" class="-section-container">
+            <div class="-section">
+                <div class="section-left-container">
+                    <div class="section-left">
+                        <div class="section-img-container ">
+                            <div id="section-img-animate" class="section-img">
+                                <img src="./img/zohar_home4_img_01.png" width="100%" alt="zohar_home4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-right-container">
+                    <div class="section-right">
+                        <div class="left-section-body-heading  leading-tight">
+                            <p class="font-black">We deals with many services to take extra care of your problem solutions.</p>
+                        </div>
+                        <div class="left-section-body-second-para">
+                            <p class="font-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Ea est praesentium modi veritatis tenetur quaerat?</p>
+                        </div>
+                        <div class="left-section-body-third-para-container">
+                            <div class="left-section-body-third-para-img-contaier">
+                                <div class="left-section-body-third-para-img six-left-section-checkbox-container">
+                                    <input type="checkbox" name="fullySecuredManagement" id="fullySecuredManagement" class="six-left-checkbox" value="f-s-m" checked>
+                                </div>
+                            </div>
+                            <div class="left-section-body-second-para  leading-tight">
+                                <p class="font-medium">Fully Secured Management</p>
+                            </div>
+                        </div>
+                        <div class="left-section-body-third-para-container">
+                            <div class="left-section-body-third-para-img-contaier">
+                                <div class="left-section-body-third-para-img six-left-section-checkbox">
+                                    <input type="checkbox" name="fullySecuredManagement" id="fullySecuredManagement" class="six-left-checkbox moneyBack" value="m-b-g"  checked>
+                                </div>
+                            </div>
+                            <div class="left-section-body-second-para  leading-tight">
+                                <p class="font-medium">
+                                    100% Money Back Guarantee</p>
+                            </div>
+                        </div>
+                        <div class="left-section-body-third-para-container">
+                            <div class="left-section-body-third-para-img-contaier">
+                                <div class="left-section-body-third-para-img six-left-section-checkbox">
+                                    <input type="checkbox" name="fullySecuredManagement" id="fullySecuredManagement" class="six-left-checkbox refunPolicy" value="d-r-p" checked>
+                                </div>
+                            </div>
+                            <div class="left-section-body-second-para leading-tight">
+                                <p class="font-medium">
+                                    30 Days Refund Policy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="-section-container">
+            <div class="-section">
+                <div class="section-left-container">
+                    <div class="section-left">
+                        <div class="left-heading-container">
+                            <div class="left-heading-title font-black tracking-wider uppercase">
+                                F A Q  
+                            </div>
+                            <div class="heading-title-bar">
+                            </div>
+                        </div>
+                        <div class="left-section-body-heading  leading-tight">
+                            <p class="font-black">Some faq for more inquiry</p>
+                        </div>
+                        <div class="left-section-body-second-para">
+                            <div class="left-body-para-slide-box-container">
+                                <div id="left-body-para-slide-box-head-container-1" class="left-body-para-slide-box-head-container">
+                                    <div class="left-body-para-slide-box-head-title">
+                                        <h1 class="font-black uppercase">how do yor answer for consulting?</h1>
+                                    </div>
+                                    <div class="left-body-para-slide-box-head-arrow">
+                                        <span id="left-body-para-slide-box-head-arrow-span-1" class="left-body-para-slide-box-head-arrow-span"><i class="fas fa-caret-right"></i></span>
+                                    </div>
+                                </div>
+                                <div id="left-body-para-slide-box-para-container-1" class="left-body-para-slide-box-para-container">
+                                    <p class="font-medium">I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.</p>
+                                </div>
+                            </div>
+                            <div class="left-body-para-slide-box-container">
+                                <div id="left-body-para-slide-box-head-container-2" class="left-body-para-slide-box-head-container">
+                                    <div class="left-body-para-slide-box-head-title">
+                                        <h1 class="font-black uppercase">WHAT DOES CONSULTIO CONSULTING DO?</h1>
+                                    </div>
+                                    <div class="left-body-para-slide-box-head-arrow">
+                                        <span id="left-body-para-slide-box-head-arrow-span-2" class="left-body-para-slide-box-head-arrow-span"><i class="fas fa-caret-right"></i></span>
+                                    </div>
+                                </div>
+                                <div id="left-body-para-slide-box-para-container-2" class="left-body-para-slide-box-para-container">
+                                    <p class="font-medium">I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.</p>
+                                </div>
+                            </div>
+                            <div class="left-body-para-slide-box-container">
+                                <div id="left-body-para-slide-box-head-container-3" class="left-body-para-slide-box-head-container">
+                                    <div class="left-body-para-slide-box-head-title">
+                                        <h1 class="font-black uppercase">CAN YOU GUARANTEE THAT OUR PLAN WILL RAISE CAPITAL?</h1>
+                                    </div>
+                                    <div class="left-body-para-slide-box-head-arrow">
+                                        <span id="left-body-para-slide-box-head-arrow-span-3" class="left-body-para-slide-box-head-arrow-span"><i class="fas fa-caret-right"></i></span>
+                                    </div>
+                                </div>
+                                <div id="left-body-para-slide-box-para-container-3" class="left-body-para-slide-box-para-container">
+                                    <p class="font-medium">I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar leo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-section-body-third-para">
+                        </div>
+                        <div class="left-section-btn-container">
+                            <a href="#" class="font-medium tracking-widest rounded-md">View Our Work</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-right-container">
+                    <div class="section-right">
+                        <div class="section-img-container">
+                            <div class="section-img">
+                                <img src="./img/zohar_04_07.jpg" width="100%" alt="zohar_04_07">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section-margin-ling">
+            <div class="margin-line"></div>
+            <div class="maring-icon border-4 rounded-full">
+                <i class="fas fa-book-reader"></i>
+            </div>
+        </div>
+        <section class="-section-container">
+            <div class="-section eight-section">
+                <div class="eight-secion-head-title-container text-center">
+                    <h3 class="font-black tracking-wider">LATEST BLOG</h1>
+                    <h1 class="font-black">Know something more from our latest blog!</h1>
+                    <div class="eight-section-head-title-para-container text-center">
+                        <p class="font-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea est praesentium modi
+                            veritatis tenetur quaerat?</p>
+                    </div>
+                </div>
+                <div class="eight-section-body-container">
+                    <div class="eight-section-body-item-container">
+                        <div class="eight-section-body-item-img-link-container">
+                            <a href="#">
+                                <div class="eight-section-body-item-img-container">
+                                    <img src="./img/theme-14.jpg" width="100%" height="100%" alt="theme-14">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="eight-section-body-item-para">
+                            <p class="font-medium">Meet the 50 top-funded startups and tech companies in China</p>
+                            <p class="font-normal">In varius varius justo, eget ultrices mauris rhoncus non. Morbi tristique, mauris eu imperdiet bibendum, velit diam iaculis velit, in ornare massa enim at lorem. …</p>
+                        </div>
+                    </div>
+                    <div class="eight-section-body-item-container">
+                        <div class="eight-section-body-item-img-link-container">
+                            <a href="#">
+                                <div class="eight-section-body-item-img-container">
+                                    <img src="./img/theme-13.jpg" width="100%" height="100%" alt="theme-13">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="eight-section-body-item-para">
+                            <p class="font-medium">3 metrics that matter when evaluating early-stage SaaS startups</p>
+                            <p class="font-normal">In varius varius justo, eget ultrices mauris rhoncus non. Morbi tristique, mauris eu imperdiet bibendum, velit diam iaculis velit, in ornare massa enim at lorem. …</p>
+                        </div>
+                    </div>
+                    <div class="eight-section-body-item-container">
+                        <div class="eight-section-body-item-img-link-container">
+                            <a href="#">
+                                <div class="eight-section-body-item-img-container">
+                                    <img src="./img/theme-12.jpg" width="100%" height="100%" alt="theme-12">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="eight-section-body-item-para">
+                            <p class="font-medium">How startups can use small wins to scare big competitors</p>
+                            <p class="font-normal">In varius varius justo, eget ultrices mauris rhoncus non. Morbi tristique, mauris eu imperdiet bibendum, velit diam iaculis velit, in ornare massa enim at lorem. …</p>
+                        </div>
+                    </div>
+                    <div class="eight-section-body-item-container">
+                        <div class="eight-section-body-item-img-link-container">
+                            <a href="#">
+                                <div class="eight-section-body-item-img-container">
+                                    <img src="./img/theme-09.jpg" width="100%" height="100%" alt="theme-09">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="eight-section-body-item-para">
+                            <p class="font-medium">Why startups should seriously rethink suing their opponents</p>
+                            <p class="font-normal">In varius varius justo, eget ultrices mauris rhoncus non. Morbi tristique, mauris eu imperdiet bibendum, velit diam iaculis velit, in ornare massa enim at lorem. …</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-items-container">
+                <div class="footer-items-head">
+                    <img src="./img/logo01.png" width="100%" alt="logo">
+                </div>
+                <div class="footer-items-body">
+                    <p class="font-medium">With a community of over 400 million users (and a majority age group being 18 to 29), wouldn’t you want to make sure you’re monitoring what people are posting on social networks?</p>
+                </div>
+            </div>
+            <div class="footer-items-container">
+                <div class="footer-items-head">
+                    <div class="footer-items-head-container">
+                        <h3 class="font-medium">QUICK LINKS</h3>
+                    </div>     
+                </div>
+                <div class="footer-items-body">
+                    <a class="font-medium" href="#">Home</a>
+                    <a class="font-medium" href="#">Who We Are</a>
+                    <a class="font-medium" href="#">What We Offer</a>
+                    <a class="font-medium" href="#">Our Work</a>
+                    <a class="font-medium" href="#">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-items-container">
+                <div class="footer-items-head">
+                    <div class="footer-items-head-container">
+                        <h3 class="font-medium">SOCIAL</h3>
+                    </div>     
+                </div>
+                <div class="footer-items-body">
+                    <a class="font-medium" href="#">Twitter</a>
+                    <a class="font-medium" href="#">Facebook</a>
+                    <a class="font-medium" href="#">Pinterest</a>
+                    <a class="font-medium" href="#">LinkedIn</a>
+                    <a class="font-medium" href="#">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-items-container">
+                <div class="footer-items-head">
+                    <div class="footer-items-head-container">
+                        <h3 class="font-bold">CONTACTS</h3>
+                    </div>     
+                </div>
+                <div class="footer-items-body">
+                    <a class="font-medium" href="#"><i class="fas fa-phone-office"></i>262 Milacina Mrest Street Behansed, United State.</a>
+                    <a class="font-medium" href="#"><i class="far fa-phone-alt"></i>+84 3333 6789</a>
+                    <a class="font-medium" href="#"><i class="fas fa-envelope"></i>support@yoursiteurl.com</a>
+                    <a class="font-medium" href="#">LinkedIn</a>
+                    <a class="font-medium" href="#"><i class="fas fa-globe"></i>www.yoursiteurl.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="scrollTop-btn" class="scrollTop-btn">
+        <i class="fal fa-arrow-alt-circle-up"></i>
+    </div>
+    <script src="./js/home.js"></script>
+</body>
+</html>
